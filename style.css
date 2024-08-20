@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    text-align: center;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 5px 5px rgb(105, 102, 102);
+}
+
+.number-display {
+    margin: 20px;
+    font-size: 24px;
+}
+
+.progress-bar {
+    margin-top: 20px;
+    background-color: #bcb9b9;
+    height: 30px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    background-color: black;
+    height: 100%;
+    width: 0;
+    transition: width 0.3s ease;
+}
